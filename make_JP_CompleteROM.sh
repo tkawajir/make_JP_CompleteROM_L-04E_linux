@@ -9,7 +9,7 @@ echo "■                                                                ■"
 echo "■    カスタマイズしたいROM以外のzipファイルは置かないで下さい。  ■"
 echo "■                                                                ■"
 echo "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■"
-echo  "for L-04E Customed By tkawajir KitKat"
+echo  "for L-04E Customed By tkawajir LolliPop"
 
 mkdir work1
 cp *.zip work1
@@ -41,7 +41,7 @@ echo "."
 echo 最後の処理をしています。
 echo "."
 echo "."
-java -jar tools/signapk.jar tools/testkey.x509.pem tools/testkey.pk8 work2/update-tmp.zip JP_L04E_KK_Complete.zip
+java -jar tools/signapk.jar tools/testkey.x509.pem tools/testkey.pk8 work2/update-tmp.zip JP_L04E_LP_Complete.zip
 echo "."
 echo "."
 echo "Signing Complete"
@@ -61,7 +61,7 @@ echo "■         CWMにてJP_Complete.zipをインストールして下さい�
 echo "■                     ご利用ありがとうございました。                     ■"
 echo "■                                                                        ■"
 echo "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■"
-echo "  for L-04E Customed (for linux) By tkawajir KitKat only :-)"
+echo "  for L-04E Customed (for linux) By tkawajir LolliPop only :-)"
 echo "."
 echo "                                              Make archives Powered by 7-Zip."
 echo "                    7-Zip Copyright (C) 1999-2010 Igor Pavlov. www.7-zip.org"
