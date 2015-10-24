@@ -21,7 +21,7 @@ rm temp.zip
 sed -f ../tools/fix_build.prop.linux.sed system/build.prop > system/build.prop_fixed
 mv system/build.prop_fixed system/build.prop
 
-sed -e "s/e980/geevl04e/g" META-INF/com/google/android/updater-script > META-INF/com/google/android/updater-script1
+sed -e "s/e988/geevl04e/g" META-INF/com/google/android/updater-script > META-INF/com/google/android/updater-script1
 mv META-INF/com/google/android/updater-script1 META-INF/com/google/android/updater-script
 
 cd ..
